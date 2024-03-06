@@ -1,7 +1,7 @@
 package com.anagornii.learning.javacodetrack.service.post;
 
-import com.anagornii.learning.javacodetrack.controller.dto.CreateBlogPostRequest;
-import com.anagornii.learning.javacodetrack.controller.dto.CreateBlogPostResponse;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.CreateBlogPostRequest;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.CreateBlogPostResponse;
 import com.anagornii.learning.javacodetrack.mapper.BlogPostEntityMapper;
 import com.anagornii.learning.javacodetrack.mapper.CreateBlogPostResponseMapper;
 import com.anagornii.learning.javacodetrack.persistance.model.BlogPostEntity;

@@ -1,6 +1,6 @@
 package com.anagornii.learning.javacodetrack.mapper;
 
-import com.anagornii.learning.javacodetrack.controller.dto.GetBlogPostByIdResponse;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.GetBlogPostByIdResponse;
 import com.anagornii.learning.javacodetrack.persistance.model.BlogPostEntity;
 import org.springframework.stereotype.Component;
 

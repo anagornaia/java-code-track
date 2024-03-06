@@ -1,16 +1,17 @@
 package com.anagornii.learning.javacodetrack.controller.advice;
 
-import com.anagornii.learning.javacodetrack.controller.dto.ErrorDetails;
-import com.anagornii.learning.javacodetrack.controller.dto.ErrorResponse;
+import com.anagornii.learning.javacodetrack.controller.dto.error.ErrorDetails;
+import com.anagornii.learning.javacodetrack.controller.dto.error.ErrorResponse;
 import com.anagornii.learning.javacodetrack.exception.ExceptionType;
 import com.anagornii.learning.javacodetrack.exception.JavaCodeTrackException;
-import java.time.LocalDateTime;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import java.time.LocalDateTime;
 
 /**
  * This class extends ResponseEntityExceptionHandler to provide centralized exception handling across all {@code @RequestMapping} methods through

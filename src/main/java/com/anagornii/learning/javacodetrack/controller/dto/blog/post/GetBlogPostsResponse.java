@@ -1,4 +1,4 @@
-package com.anagornii.learning.javacodetrack.controller.dto;
+package com.anagornii.learning.javacodetrack.controller.dto.blog.post;
 
 import lombok.Data;
 

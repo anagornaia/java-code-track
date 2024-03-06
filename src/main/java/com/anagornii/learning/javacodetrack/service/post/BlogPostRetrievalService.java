@@ -1,7 +1,7 @@
 package com.anagornii.learning.javacodetrack.service.post;
 
-import com.anagornii.learning.javacodetrack.controller.dto.GetBlogPostByIdResponse;
-import com.anagornii.learning.javacodetrack.controller.dto.GetBlogPostsResponse;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.GetBlogPostByIdResponse;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.GetBlogPostsResponse;
 import com.anagornii.learning.javacodetrack.exception.ExceptionType;
 import com.anagornii.learning.javacodetrack.exception.JavaCodeTrackException;
 import com.anagornii.learning.javacodetrack.mapper.GetBlogPostByIdResponseMapper;

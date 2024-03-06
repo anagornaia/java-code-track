@@ -1,11 +1,11 @@
-package com.anagornii.learning.javacodetrack.controller.dto;
+package com.anagornii.learning.javacodetrack.controller.dto.blog.post;
 
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
-public class GetBlogPostByIdResponse {
+public class BlogPostData {
     private Long id;
     private String title;
     private String content;

@@ -1,6 +1,6 @@
 package com.anagornii.learning.javacodetrack.mapper;
 
-import com.anagornii.learning.javacodetrack.controller.dto.CreateBlogPostRequest;
+import com.anagornii.learning.javacodetrack.controller.dto.blog.post.CreateBlogPostRequest;
 import com.anagornii.learning.javacodetrack.persistance.model.BlogPostEntity;
 import org.springframework.stereotype.Component;
 
